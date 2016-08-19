@@ -43,7 +43,7 @@ public class PractiseServlet extends HttpServlet {
 	}
 
 	/**
-	 * @see Servlet#destroy()
+	 * issue is how to get called destroy method
 	 */
 	public void destroy() {
 		System.out.println("PractiseServlet destroy method has called");
